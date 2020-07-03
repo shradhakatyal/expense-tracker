@@ -3,19 +3,27 @@ label {
   margin: 10px 0;
 }
 
+.amount-label {
+  margin-top: 30px;
+}
+
 input[type='text'],
 input[type='number'] {
   border: 1px solid #dedede;
-  border-radius: 2px;
+  border-radius: 3px;
   display: block;
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #209cee;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -24,9 +32,25 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
+}
+
+.add-transaction-section {
+  padding: 30px 80px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+input:focus {
+  outline: 1px solid #97c8e8
 }

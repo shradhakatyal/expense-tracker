@@ -6,7 +6,7 @@ export const AddTransaction = () => {
   const [text, changeText] = useState('');
   const [amount, changeAmount] = useState('');
   return (
-    <Fragment>
+    <div className='add-transaction-section'>
       <h3>Add new transaction</h3>
       <form id="form">
         <div className="form-control">
@@ -20,7 +20,7 @@ export const AddTransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount"
+          <label className="amount-label" htmlFor="amount"
             >Amount <br />
             (negative - expense, positive - income)</label
           >
@@ -34,6 +34,6 @@ export const AddTransaction = () => {
         </div>
         <button className="btn">Add transaction</button>
       </form>
-    </Fragment>
+    </div>
   );
 };

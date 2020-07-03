@@ -7,7 +7,7 @@ import { Transaction } from '../Transaction/Transaction';
 export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
   return (
-    <Fragment>
+    <div className='history-section'>
       <h3>History</h3>
       <ul id="list" className="list">
         {
@@ -16,6 +16,6 @@ export const TransactionList = () => {
           ))
         }
       </ul>
-    </Fragment>
+    </div>
   );
 };

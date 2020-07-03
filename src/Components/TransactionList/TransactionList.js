@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { useContext } from 'react';
 
 import './TransactionList.scss';
 import { GlobalContext } from '../../Context/GlobalState';
@@ -6,6 +6,7 @@ import { Transaction } from '../Transaction/Transaction';
 
 export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext);
+  console.log(transactions);
   return (
     <div className='history-section'>
       <h3>History</h3>

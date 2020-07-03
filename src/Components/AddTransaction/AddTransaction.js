@@ -1,20 +1,38 @@
-import React, { Fragment, useState } from 'react';
+import React, { useContext, useState } from 'react';
 
 import './AddTransaction.scss';
+import { GlobalContext } from '../../Context/GlobalState';
 
 export const AddTransaction = () => {
   const [text, changeText] = useState('');
   const [amount, changeAmount] = useState('');
+  const { addTransaction, transactions } = useContext(GlobalContext);
+
+  const onSubmitForm = e => {
+    e.preventDefault();
+    // addTransaction
+    if(!text || !amount) {
+      return;
+    }
+    const newTransaction = {
+      id: parseInt(transactions[transactions.length - 1].id) + 1,
+      text,
+      amount: parseFloat(amount),
+    };
+    addTransaction(newTransaction);
+    changeText('');
+    changeAmount('');
+  }
   return (
     <div className='add-transaction-section'>
       <h3>Add new transaction</h3>
-      <form id="form">
+      <form id="form" onSubmit={onSubmitForm}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text">Transaction Name</label>
           <input
           type="text"
           id="text"
-          placeholder="Enter transaction label"
+          placeholder="Enter transaction name"
           value={text}
           onChange={e => changeText(e.target.value)}
           />

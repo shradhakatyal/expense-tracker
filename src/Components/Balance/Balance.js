@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 
+import './Balance.scss';
+
 export const Balance = () => {
   return (
     <Fragment>

@@ -10,6 +10,9 @@
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  @media all and (max-width: 425px) {
+    width: 300px;
+  }
 }
 
 .inc-exp-container > div {

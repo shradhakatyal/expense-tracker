@@ -15,7 +15,7 @@ export const AddTransaction = () => {
       return;
     }
     const newTransaction = {
-      id: parseInt(transactions[transactions.length - 1].id) + 1,
+      id: transactions.length ? parseInt(transactions[transactions.length - 1].id) + 1 : 1,
       text,
       amount: parseFloat(amount),
     };

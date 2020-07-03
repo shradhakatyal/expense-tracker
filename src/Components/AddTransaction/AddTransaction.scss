@@ -49,6 +49,12 @@ input[type='number'] {
   display: inline-block;
   vertical-align: top;
   width: 50%;
+  @media all and (max-width: 991px) {
+    padding: 30px 50px;
+  }
+  @media all and (max-width: 425px) {
+    width: 100%;
+  }
 }
 
 input:focus {

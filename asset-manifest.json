@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shradhakatyal/expense-tracker.git/static/css/main.c0ec7200.chunk.css",
-    "main.js": "/shradhakatyal/expense-tracker.git/static/js/main.0595a670.chunk.js",
-    "main.js.map": "/shradhakatyal/expense-tracker.git/static/js/main.0595a670.chunk.js.map",
-    "runtime-main.js": "/shradhakatyal/expense-tracker.git/static/js/runtime-main.a6ea9f35.js",
-    "runtime-main.js.map": "/shradhakatyal/expense-tracker.git/static/js/runtime-main.a6ea9f35.js.map",
-    "static/js/2.4599387a.chunk.js": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js",
-    "static/js/2.4599387a.chunk.js.map": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js.map",
-    "index.html": "/shradhakatyal/expense-tracker.git/index.html",
-    "precache-manifest.2c30ee0e839d9b742b4314ee07edd3a9.js": "/shradhakatyal/expense-tracker.git/precache-manifest.2c30ee0e839d9b742b4314ee07edd3a9.js",
-    "service-worker.js": "/shradhakatyal/expense-tracker.git/service-worker.js",
-    "static/css/main.c0ec7200.chunk.css.map": "/shradhakatyal/expense-tracker.git/static/css/main.c0ec7200.chunk.css.map",
-    "static/js/2.4599387a.chunk.js.LICENSE.txt": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js.LICENSE.txt"
+    "main.css": "/expense-tracker/static/css/main.c0ec7200.chunk.css",
+    "main.js": "/expense-tracker/static/js/main.0595a670.chunk.js",
+    "main.js.map": "/expense-tracker/static/js/main.0595a670.chunk.js.map",
+    "runtime-main.js": "/expense-tracker/static/js/runtime-main.91d22b83.js",
+    "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.91d22b83.js.map",
+    "static/js/2.4599387a.chunk.js": "/expense-tracker/static/js/2.4599387a.chunk.js",
+    "static/js/2.4599387a.chunk.js.map": "/expense-tracker/static/js/2.4599387a.chunk.js.map",
+    "index.html": "/expense-tracker/index.html",
+    "precache-manifest.ebcbff01dd9afeb2b2e81aa5203acbd1.js": "/expense-tracker/precache-manifest.ebcbff01dd9afeb2b2e81aa5203acbd1.js",
+    "service-worker.js": "/expense-tracker/service-worker.js",
+    "static/css/main.c0ec7200.chunk.css.map": "/expense-tracker/static/css/main.c0ec7200.chunk.css.map",
+    "static/js/2.4599387a.chunk.js.LICENSE.txt": "/expense-tracker/static/js/2.4599387a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6ea9f35.js",
+    "static/js/runtime-main.91d22b83.js",
     "static/js/2.4599387a.chunk.js",
     "static/css/main.c0ec7200.chunk.css",
     "static/js/main.0595a670.chunk.js"

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shradhakatyal/expense-tracker.git/static/css/main.c0ec7200.chunk.css",
+    "main.js": "/shradhakatyal/expense-tracker.git/static/js/main.0595a670.chunk.js",
+    "main.js.map": "/shradhakatyal/expense-tracker.git/static/js/main.0595a670.chunk.js.map",
+    "runtime-main.js": "/shradhakatyal/expense-tracker.git/static/js/runtime-main.a6ea9f35.js",
+    "runtime-main.js.map": "/shradhakatyal/expense-tracker.git/static/js/runtime-main.a6ea9f35.js.map",
+    "static/js/2.4599387a.chunk.js": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js",
+    "static/js/2.4599387a.chunk.js.map": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js.map",
+    "index.html": "/shradhakatyal/expense-tracker.git/index.html",
+    "precache-manifest.2c30ee0e839d9b742b4314ee07edd3a9.js": "/shradhakatyal/expense-tracker.git/precache-manifest.2c30ee0e839d9b742b4314ee07edd3a9.js",
+    "service-worker.js": "/shradhakatyal/expense-tracker.git/service-worker.js",
+    "static/css/main.c0ec7200.chunk.css.map": "/shradhakatyal/expense-tracker.git/static/css/main.c0ec7200.chunk.css.map",
+    "static/js/2.4599387a.chunk.js.LICENSE.txt": "/shradhakatyal/expense-tracker.git/static/js/2.4599387a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6ea9f35.js",
+    "static/js/2.4599387a.chunk.js",
+    "static/css/main.c0ec7200.chunk.css",
+    "static/js/main.0595a670.chunk.js"
+  ]
+}

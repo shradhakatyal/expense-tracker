@@ -1,11 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 
 import './TransactionList.scss';
 import { GlobalContext } from '../../Context/GlobalState';
 import { Transaction } from '../Transaction/Transaction';
 
 export const TransactionList = () => {
-  const { transactions } = useContext(GlobalContext);
+  const { transactions, getTransactions } = useContext(GlobalContext);
+  
+  useEffect(() => {
+    getTransactions();
+  }, []);
+  
   console.log(transactions);
   return (
     <div className='history-section'>
@@ -13,7 +18,7 @@ export const TransactionList = () => {
       <ul id="list" className="list">
         {
           transactions.map(transaction => (
-          <Transaction transaction={transaction} key={transaction.id} />
+          <Transaction transaction={transaction} key={transaction._id} />
           ))
         }
       </ul>
